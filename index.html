@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">LOGOTIPO</div>
+    <div class="buscador">
+      <input type="text" placeholder="Buscar Libro">
+      <button>🔍</button>
+    </div>
+    <div class="auth-buttons">
+      <button type="button" class="btn btn-info">Iniciar Sesión</button>
+      <button type="button" class="btn btn-info">Registrarse</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="carousel slide" id="carouselExampleAutoplaying" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/libro1.jpg" class="d-block w-100" alt="Libro 1">
+          <div class="carousel-caption">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Por Juan David</p>
+            <p>Descripción del libro...</p>
+            <button>Ver Libro</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/libro2.jpg" class="d-block w-100" alt="Libro 2">
+          <div class="carousel-caption">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Por Juan David</p>
+            <p>Descripción del libro...</p>
+            <button>Ver Libro</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/libro3.jpg" class="d-block w-100" alt="Libro 3">
+          <div class="carousel-caption">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Por Juan David</p>
+            <p>Descripción del libro...</p>
+            <button>Ver Libro</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section class="categorias">
+      <h2><center>Categorías</center></h2>
+      <div class="boton-categoria">
+          <button type="button" class="btn btn-primary">Negocios</button>
+          <button type="button" class="btn btn-secondary">AutoAyuda</button>
+          <button type="button" class="btn btn-success">Ciencia Ficcción</button>
+          <button type="button" class="btn btn-danger">Fantacia</button>
+          <button type="button" class="btn btn-warning">Misterio</button>
+          <button type="button" class="btn btn-info">Ciencia</button>
+          <button type="button" class="btn btn-success">Salud</button>
+          <button type="button" class="btn btn-danger">Literatura</button>
+          <button type="button" class="btn btn-warning">Historia</button>
+          <button type="button" class="btn btn-info">Suspenso</button>
+    </section>
+
+    <section class="mas-vendidos">
+      <h2>Los más vendidos</h2>
+      <div class="galeria-libros">
+          <!-- Repetir para cada libro -->
+          <div class="libro-item" data-rating="5">
+              <img src="img/libro3.jpg" alt="Libro">
+              <p>morbi finibus leo tortor</p>
+              <p>Por Juan David</p>
+              <div class="stars"></div>
+          </div>
+          <div class="libro-item" data-rating="4.5">
+              <img src="img/libro4.jpg" alt="Libro">
+              <p>morbi finibus leo tortor</p>
+              <p>Por Juan David</p>
+              <div class="stars"></div>
+          </div>
+          <div class="libro-item" data-rating="1">
+            <img src="img/libro5.jpg" alt="Libro">
+            <p>morbi finibus leo tortor</p>
+            <p>Por Juan David</p>
+            <div class="stars"></div>
+        </div>
+        <div class="libro-item" data-rating="4">
+          <img src="img/libro2.jpg" alt="Libro">
+          <p>morbi finibus leo tortor</p>
+          <p>Por Juan David</p>
+          <div class="stars"></div>
+      </div>
+          <!-- Agregar más libros aquí -->
+      </div>
+  </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">LOGOTIPO</div>
+      <div class="footer-info">
+        <h3>Información y Ayuda</h3>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Contacto</h3>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
